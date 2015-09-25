@@ -1,0 +1,9 @@
+start up the database:
+mongod
+(if this errors because of a .lock file, just delete it out of  "c:\data\db" folder)
+
+run the site:
+npm start
+
+connect to the database: (make sure it's running first)
+mongo
